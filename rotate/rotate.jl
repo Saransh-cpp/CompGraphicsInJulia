@@ -11,10 +11,11 @@ function _rotate(pointsA, t, xp, yp)
 	return pointsB
 end
 
-function main(pointsA = [(50,50), (100,100), (150,100)], t = 90, xp = 50, yp = 50)
+function main(t = 60, xp = 50, yp = 50)
+	pointsA = [(50,50), (100,100), (150,100)]
 	isClosed = true
 
-	pointsB = rotate(pointsA, t, xp, yp)
+	pointsB = _rotate(pointsA, t, xp, yp)
 	print(pointsB)
 	return pointsA, pointsB, isClosed
 end

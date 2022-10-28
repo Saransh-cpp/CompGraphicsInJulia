@@ -51,6 +51,3 @@ function main()
         print('\n')
     end
 end
-
-# This code is contributed by Ashutosh450
-# Updated by Arun Pandey
