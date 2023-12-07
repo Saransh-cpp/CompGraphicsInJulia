@@ -1,7 +1,3 @@
-# Python3 program to implement
-# flood fill algorithm
-
-# Dimensions of paint screen
 M = 8
 N = 8
 
